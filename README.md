@@ -77,7 +77,7 @@ Valid stablecoins which can be used as collateral are hardcoded in the construct
     }
 ```
 
-See mint and retrieve function [implementations](./ConsensusUSD.sol), with which one can mint XUSD and retrieve previously deposited
+See mint and retrieve function [implementations](contracts/ConsensusUSD.sol), with which one can mint XUSD and retrieve previously deposited
 backing assets (burning XUSD)
 
 
