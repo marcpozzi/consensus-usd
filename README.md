@@ -68,7 +68,7 @@ Valid stablecoins which can be used as collateral are hardcoded in the construct
         name = "Consensus USD";
         symbol = "XUSD";
 
-        validStablecoins[0x6b175474e89094c44da98b954eedeac495271d0f] = 1; // DAI  (MC DAI       )
+        validStablecoins[0x6B175474E89094C44Da98b954EedeAC495271d0F] = 1; // DAI  (MC DAI       )
         validStablecoins[0xdAC17F958D2ee523a2206206994597C13D831ec7] = 1; // USDT (ERC20 Tether )
         validStablecoins[0x4Fabb145d64652a948d72533023f6E7A623C7C53] = 1; // BUSD (Binance USD  )
         validStablecoins[0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48] = 1; // USDC (USD Coin     )
@@ -77,13 +77,13 @@ Valid stablecoins which can be used as collateral are hardcoded in the construct
     }
 ```
 
-See mint and retrieve function [implementations](contracts/ConsensusUSD.sol), with which one can mint XUSD and retrieve previously deposited
+See mint and retrieve function implementations in [ConsensusUSD.sol](contracts/ConsensusUSD.sol), with which one can mint XUSD and retrieve previously deposited
 backing assets (burning XUSD)
 
 
 ### Contract
 
-Deployed and verified on mainnet, see on etherscan[ TODO]()
+Deployed and verified on mainnet, see on [etherscan](https://etherscan.io/address/0x9051795ab42712890a8a705bc7c14f116a4ccc87)
 
 ### Purpose
 
